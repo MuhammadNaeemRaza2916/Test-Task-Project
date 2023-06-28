@@ -1,0 +1,269 @@
+.backgroundImage {
+    background-image: url("../img/Frame.png");
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 125vh;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.narHr {
+    top: 4em;
+    width: 98%;
+    border: none;
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+    height: 1px;
+    /* margin-right: 10em; */
+    opacity: 10%;
+    position:absolute;
+    z-index: 9999;
+}
+
+.navbar .row {
+    text-align: center;
+    margin-top: 200px;
+    color: #fff;
+}
+
+.navbar .row h1 {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.navbar .row hr {
+    width: 10%;
+    border: none;
+    color: #fff;
+    background-color: #fff;
+    height: 2px;
+    opacity: 100%;
+    margin-top: 10px;
+    margin-left: 600px;
+}
+
+.narbaar-list li {
+    padding-left: 20px;
+}
+
+.narbaar-list li a {
+    color: white;
+}
+
+.about-container {
+    margin-top: 100px;
+}
+
+.about-container .row .about-section1 {
+    margin-top: 100px;
+    padding-right: 20px;
+}
+
+.about-container .row .about-section2 img {
+    width: 95%;
+    margin-left: 20px;
+}
+
+.img img {
+    position: absolute;
+    margin-left: 80px;
+    width: 350px;
+}
+
+.slider-container .row h2 {
+    text-align: center;
+    margin-top: 12%;
+}
+
+.slider-container .row p {
+    text-align: center;
+}
+
+/* Square container
+.square-container {
+    width: 100px;
+    height: 100px;
+    margin-left: 45%;
+    position: absolute;
+    z-index: 9;
+}
+
+Square shape
+.square {
+    width: 100%;
+    height: 100%;
+}
+
+Inner div with rotation
+.square-rotate {
+    transform: rotate(45deg);
+    width: 100%;
+    height: 100%;
+}
+
+.borderDiv {
+    border: 20px solid #fff;
+    border-width: 20px;
+    border-radius: 60px;
+    width: 25em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.borderDiv img {
+    border-radius: 40px;
+} */
+
+.footer {
+    margin-top: 20%;
+    background-image: url("../img/Rectangle\ 41.png");
+    /* background-position: auto; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    position: absolute;
+    /* z-index: 1; */
+}
+
+.footer img {
+    /* margin-bottom: 10%; */
+    position: relative;
+    height:inherit !important;
+    width: 100%;
+    opacity: 0.7;
+}
+
+/* new file css */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* body {
+  font-family: 'Noto Sans HK', sans-serif;
+  background: #fff;
+} */
+.slider {
+    /* margin-bottom: 30px; */
+    position: relative;
+}
+
+.slider .owl-item.active.center .slider-card {
+    transform: scale(1.15);
+    opacity: 1;
+    /* color: #fff; */
+}
+.slider-card {
+    background: transparent;
+    padding: 0px 0px;
+    margin: 120px 15px 90px 15px;
+    border-radius: 5px;
+    /* box-shadow: 0 15px 45px -20px rgb(0 0 0 / 73%); */
+    transform: scale(0.9);
+    opacity: 1;
+    transition: all 0.3s;
+    width: 350px;
+}
+
+/* .slider-card img {
+  border-radius: 5px 5px 0px 0px;
+} */
+.owl-nav .owl-prev {
+    color: white !important;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: 0;
+    opacity: 1;
+    font-size: 30px !important;
+    z-index: 1;
+    margin-left: 18em;
+    margin-top: 8.3em;
+}
+
+.owl-nav .owl-next {
+    color: white !important;
+    position: absolute;
+    top: calc(50% - 25px);
+    right: 0;
+    opacity: 1;
+    font-size: 30px !important;
+    z-index: 1;
+    margin-right: 18em;
+    margin-top: 8.3em;
+    border: 5px solid black;
+    border-radius: 50%;
+}
+
+.owl-dots {
+    text-align: center;
+}
+
+.owl-dots .owl-dot {
+    /* margin-top: 10em; */
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    background: #ccc !important;
+    margin-left: 3px;
+    margin-right: 3px;
+    outline: none;
+}
+
+.owl-dots .owl-dot.active {
+    background: #fff !important;
+}
+
+/* Square container */
+.square-container {
+    width: 100%;
+    height: 100%;
+    margin-top: 8em !important;
+    /* margin-bottom: 8em !important; */
+    margin-left: 3em !important;
+    transition: transform .2s;
+    /* Animation */ 
+    /* position: absolute;
+    z-index: 9; */
+}
+
+/* Square shape */
+.square {
+    width: 100%;
+    height: 100%;
+}
+
+/* Inner div with rotation */
+.square-rotate {
+    transform: rotate(45deg);
+    width: 100%;
+    height: 100%;
+}
+
+.borderDiv {
+    border: 10px solid #fff;
+    /* border-width: 20px; */
+    border-radius: 40px;
+    width: 16em !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.borderDiv img {
+    border-radius: 40px;
+}
+
+.borderDiv h4 {
+    color: white;
+    transform: rotate(-45deg);
+    padding-right: 7.14em;
+    padding-top: 1em;
+    position: absolute;
+    z-index: 16;
+}
+
+.square-container:hover {
+  transform: scale(1.2);
+}
