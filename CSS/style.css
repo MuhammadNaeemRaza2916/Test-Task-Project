@@ -1,4 +1,4 @@
-@media (max-width: 1920px) {
+/* @media (max-width: 1920px) { */
     .backgroundImage {
         background-image: url("../img/Frame.png");
         background-position: auto;
@@ -260,4 +260,4 @@
     .square-container:hover {
         transform: scale(1.2);
     }
-}
+/* } */
